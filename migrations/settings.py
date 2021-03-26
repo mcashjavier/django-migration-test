@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'migrations.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'migration_test',
+        'NAME': 'migrations_test_prod',
         'USER': 'root',
         'PASSWORD': '123Momia!',
         'HOST': '127.0.0.1',   # Or an IP Address that your DB is hosted on
